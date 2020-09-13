@@ -3,6 +3,9 @@
   <name>TodoApp</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="build/libs/todo.jar" />
+    </options>
     <parameters />
     <build-runners />
     <vcs-settings />
