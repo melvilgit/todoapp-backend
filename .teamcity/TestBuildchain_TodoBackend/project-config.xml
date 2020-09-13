@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="TestBuildchain" uuid="bd98075d-7c28-4712-854d-06612f508beb" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
+  <name>TodoBackend</name>
+  <parameters />
+  <cleanup />
+</project>
+
