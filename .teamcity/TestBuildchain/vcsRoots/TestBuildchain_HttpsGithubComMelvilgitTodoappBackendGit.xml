@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="ee3febcf-d4cc-4369-9e32-55d8e74fc8c4" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
+  <name>https://github.com/melvilgit/todoapp-backend.git</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:68e430ae-c228-4c90-9ed9-010a52057b20" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://github.com/melvilgit/todoapp-backend.git" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="melvilgit" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
