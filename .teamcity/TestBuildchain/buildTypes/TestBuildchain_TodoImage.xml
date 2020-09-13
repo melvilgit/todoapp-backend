@@ -7,7 +7,15 @@
     <build-runners />
     <vcs-settings />
     <requirements />
-    <build-triggers />
+    <build-triggers>
+      <build-trigger id="vcsTrigger" type="vcsTrigger">
+        <parameters>
+          <param name="enableQueueOptimization" value="true" />
+          <param name="quietPeriodMode" value="DO_NOT_USE" />
+          <param name="watchChangesInDependencies" value="true" />
+        </parameters>
+      </build-trigger>
+    </build-triggers>
     <artifact-dependencies>
       <dependency id="ARTIFACT_DEPENDENCY_1" sourceBuildTypeId="TestBuildchain_TodoApp" cleanDestination="false">
         <revisionRule name="sameChainOrLastFinished" revision="latest.sameChainOrLastFinished" />
