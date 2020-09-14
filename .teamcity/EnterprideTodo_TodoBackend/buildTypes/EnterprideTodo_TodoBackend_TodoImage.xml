@@ -7,7 +7,10 @@
     <build-runners>
       <runner id="RUNNER_3" name="" type="simpleRunner">
         <parameters>
-          <param name="script.content" value="#!/bin/bash" />
+          <param name="script.content"><![CDATA[#!/bin/bash
+cp docker  build/libs/
+cd build/libs/
+docker build -t testimage .]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
