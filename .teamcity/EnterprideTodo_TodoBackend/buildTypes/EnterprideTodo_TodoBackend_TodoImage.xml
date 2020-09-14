@@ -5,10 +5,11 @@
   <settings>
     <parameters />
     <build-runners>
-      <runner id="RUNNER_3" name="" type="DockerCompose">
+      <runner id="RUNNER_3" name="" type="simpleRunner">
         <parameters>
-          <param name="dockerCompose.file" value="teamcity-services.yml" />
+          <param name="script.content" value="#!/bin/bash" />
           <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
       <runner id="RUNNER_5" name="" type="DockerCommand">
