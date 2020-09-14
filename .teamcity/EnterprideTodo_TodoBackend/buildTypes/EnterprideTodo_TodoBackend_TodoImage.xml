@@ -11,12 +11,6 @@
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
-      <runner id="RUNNER_4" name="" type="DockerCompose">
-        <parameters>
-          <param name="dockerCompose.file" value="teamcity-services.yml" />
-          <param name="teamcity.step.mode" value="default" />
-        </parameters>
-      </runner>
       <runner id="RUNNER_5" name="" type="DockerCommand">
         <parameters>
           <param name="docker.command.type" value="build" />
