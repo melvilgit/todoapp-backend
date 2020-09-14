@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="EnterprideTodo" uuid="16b9fda7-8846-4d1c-a7df-a9e214d40f41" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
+  <name>TodoBackend</name>
+  <parameters />
+  <cleanup />
+</project>
+
