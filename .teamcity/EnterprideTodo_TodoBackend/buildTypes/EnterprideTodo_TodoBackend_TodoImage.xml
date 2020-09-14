@@ -5,7 +5,9 @@
   <settings>
     <parameters />
     <build-runners />
-    <vcs-settings />
+    <vcs-settings>
+      <vcs-entry-ref root-id="EnterprideTodo_HttpsGithubComMelvilgitTodoappBackendGit" />
+    </vcs-settings>
     <requirements />
     <build-triggers />
     <artifact-dependencies>
